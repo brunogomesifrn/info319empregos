@@ -1,0 +1,41 @@
+.centralizar
+{
+	text-align: center;
+}
+.fundopretoletrabranca
+{
+	background-color: black;
+	color: white;
+}
+
+.estilo_link	
+
+ {
+  background-color: black;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+ .bordatracejada{
+ border-style:dashed;
+ border-width:1px;
+}
+.letraitalica{
+  font-style:italic;
+
+}
+.borda_dupla{
+ border-style:double;
+ border-width:3px;
+ color: black;
+	
+}
+.fonte_vermelha{
+	color: red;
+}
+
+.fundo{
+	background-color: #FFFFF0;
+}
