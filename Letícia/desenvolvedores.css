@@ -1,0 +1,27 @@
+.cor{
+
+	background-color: black;
+	color: blue;
+	text-align: center; 
+}
+
+.imagem{
+
+	margin-left: 500px;
+}
+
+.nome{
+
+	margin-left: 90px;
+	
+}
+
+.nome1{
+
+	margin-left: 75px;
+}
+
+.fundo{
+
+	background-image: url(d.jpg);
+}
