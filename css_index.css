@@ -2,21 +2,13 @@
 {
 	text-align: center;
 }
-.fundopretoletrabranca
+.letrabrancafundopreto
 {
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 }
 
-.estilo_link	
 
- {
-  background-color: black;
-  color: white;
-  padding: 14px 25px;
-  text-align: center; 
-  text-decoration: none;
-  display: inline-block;
 }
  .bordatracejada{
  border-style:dashed;
@@ -37,5 +29,34 @@
 }
 
 .fundo{
-	background-color: #FFFFF0;
+
+  background-image: url(trab2.jpg);
+ 
+
+
+}
+
+.fundorosaletrabranca
+{
+  background-color: #FFF ;
+  color: #56251d;
+
+}
+.margens
+{
+  margin :25px;
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-bottom:25px;
+  margin-left:25;
+}
+.centralizarBorda
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:600px;
+}
+.fotetitulo 
+{
+  font-style: fantasy;
 }
