@@ -1,0 +1,62 @@
+.centralizar
+{
+	text-align: center;
+}
+.letrabrancafundopreto
+{
+	background-color: white;
+	color: black;
+}
+
+
+}
+ .bordatracejada{
+ border-style:dashed;
+ border-width:1px;
+}
+.letraitalica{
+  font-style:italic;
+
+}
+.borda_dupla{
+ border-style:double;
+ border-width:3px;
+ color: black;
+	
+}
+.fonte_vermelha{
+	color: red;
+}
+
+.fundo{
+
+  background-image: url(trab2.jpg);
+ 
+
+
+}
+
+.fundorosaletrabranca
+{
+  background-color: #FFF ;
+  color: #56251d;
+
+}
+.margens
+{
+  margin :25px;
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-bottom:25px;
+  margin-left:25;
+}
+.centralizarBorda
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:600px;
+}
+.fotetitulo 
+{
+  font-style: fantasy;
+}
