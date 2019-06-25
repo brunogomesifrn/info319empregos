@@ -1,6 +1,5 @@
 .center{
 	text-align: center; 
-	background-color: black;
 	color: blue;
 }
 .botao{
@@ -11,6 +10,7 @@
 .centralizar{
 
 	margin: auto;
+	margin-top: 90px;
 
 }
 
