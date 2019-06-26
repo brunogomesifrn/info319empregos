@@ -12,7 +12,8 @@
 }
  .bordatracejada{
  border-style:dashed;
- border-width:1px;
+ border-width:10px;
+ border-color: #fff;
 }
 .letraitalica{
   font-style:italic;
@@ -38,8 +39,9 @@
 
 .fundorosaletrabranca
 {
-  background-color: #FFF ;
-  color: #56251d;
+  
+  color: #fff;
+  background-color: #56251d ;
 
 }
 .margens
@@ -59,4 +61,14 @@
 .fotetitulo 
 {
   font-style: fantasy;
+}
+
+
+.bordaBranca
+{
+  background-color: #fff; 
+  color: black;
+  border-style:double;
+  border-width:3px;
+
 }
