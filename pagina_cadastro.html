@@ -21,7 +21,7 @@
 </head>
 <body class="fundo" />
 	  <h1 class="fundorosaletrabranca centralizar title"> Bem vindo à página de cadastro </h1> 
-  <h2 class="fundorosaletrabranca centralizar title"> Preencha o formulário abaixo para se cadastrar</h2><br />
+  <h2 class="fundorosaletrabranca centralizar title" > Preencha o formulário abaixo para se cadastrar</h2><br />
 
 <form action="login.html" method="post">
 
@@ -40,7 +40,7 @@
     <label for="sobrenome">Sobrenome: </label>
    </td>
    <td align="left">
-    <input type="text" name="sobrenome" class="fonte"/>
+    <input type="text" name="sobrenome" required class="fonte"/>
    </td>
   </tr> <!-- Fechando a tabela dos dados pessoais -->
   <tr>
@@ -48,7 +48,7 @@
     <label>Nascimento: </label>
    </td>
    <td align="left">
-    <input type="date" name="data" class="fonte"/> 
+    <input type="date" name="data" class="fonte" required/> 
    </td>
   </tr>
   <tr>
@@ -56,7 +56,7 @@
     <label for="rg">RG: </label>
    </td>
    <td align="left">
-    <input type="text" name="rg" size="13" maxlength="13" class="fonte"> 
+    <input type="text" name="rg" size="13" maxlength="13" class="fonte" required> 
    </td>
   </tr>
   <tr>
@@ -64,7 +64,7 @@
     <label>CPF:</label>
    </td>
    <td align="left">
-    <input type="text" name="cpf"  size="9" maxlength="9" class="fonte"/> - <input type="text" name="cpf2" size="2" maxlength="2" class="fonte"/>
+    <input type="text" name="cpf"  size="9" maxlength="9" class="fonte" required/> - <input type="text" name="cpf2" size="2" maxlength="2" class="fonte" required/>
    </td>
   </tr>
  </table>
@@ -81,7 +81,7 @@
     <label for="rua">Rua:</label>
    </td>
    <td align="left">
-    <input type="text fonte" name="rua" class="fonte"/>
+    <input type="text fonte" name="rua" class="fonte" required/>
    </td>
    <td class="cor fonte">
     <label for="numero">Numero:</label>
@@ -95,7 +95,7 @@
     <label for="bairro">Bairro: </label>
    </td>
    <td align="left">
-    <input type="text" name="bairro" class="fonte"/>
+    <input type="text" name="bairro" class="fonte" required/>
    </td>
   </tr>
   <tr>
@@ -103,7 +103,7 @@
     <label for="estado">Estado:</label>
    </td>
    <td align="left">
-    <select name="estado" class="fonte"> 
+    <select name="estado" class="fonte" required> 
     <option value="ac">Acre</option> 
     <option value="al">Alagoas</option> 
     <option value="am">Amazonas</option> 
@@ -139,7 +139,7 @@
     <label for="cidade">Cidade: </label>
    </td>
    <td align="left">
-    <input type="text" name="cidade" class="fonte"/>
+    <input type="text" name="cidade" class="fonte" required/>
    </td>
   </tr>
   <tr>
@@ -147,7 +147,7 @@
     <label for="cep">CEP: </label>
    </td>
    <td align="left">
-    <input type="text" name="cep" size="5" maxlength="5" class="fonte"/> - <input type="text" name="cep2" size="3" maxlength="3" class="fonte"/>
+    <input type="text" name="cep" size="5" maxlength="5" class="fonte" required/> - <input type="text" name="cep2" size="3" maxlength="3" class="fonte" required/>
    </td>
   </tr>
  </table>
@@ -163,7 +163,7 @@
     <label for="email">E-mail: </label>
    </td>
    <td align="left">
-    <input type="text" name="email" class="fonte"/>
+    <input type="text" name="email" class="fonte" required/>
    </td>
   </tr>
   <tr>
@@ -171,7 +171,7 @@
     <label for="imagem">Imagem de perfil:</label>
    </td>
    <td class="cor fonte">
-    <input type="file" name="imagem" class="fonte"/>
+    <input type="file" name="imagem" class="fonte" required/>
 
    </td>
   </tr>
@@ -180,7 +180,7 @@
     <label for="login">Login de usuário: </label>
    </td>
    <td align="left">
-    <input type="text" name="login" class="fonte"/>
+    <input type="text" name="login" class="fonte" required/>
    </td>
   </tr>
   <tr>
@@ -188,7 +188,7 @@
     <label for="pass">Senha: </label>
    </td>
    <td align="left">
-    <input type="password" name="pass" class="fonte"/>
+    <input type="password" name="pass" class="fonte" required/>
    </td>
   </tr>
   <tr>
@@ -196,7 +196,7 @@
     <label for="passconfirm">Confirme a senha: </label>
    </td>
    <td align="left">
-    <input type="password" name="passconfirm" class="fonte"/>
+    <input type="password" name="passconfirm" class="fonte" required/>
    </td>
   </tr>
  </table>
