@@ -37,3 +37,25 @@
   background-color: #56251d ;
 
 }
+.borda_dupla{
+ border-style:double;
+ border-width:3px;
+ color: #fff;
+ }
+ .letrabrancafundopreto
+{
+	background-color: white;
+	color: black;
+}
+.fundorosaletrabranca
+{
+  
+  color: #fff;
+  background-color: #56251d ;
+
+}
+.margem{
+
+    
+    float: right;
+}
