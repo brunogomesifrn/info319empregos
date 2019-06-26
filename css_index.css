@@ -1,3 +1,5 @@
+
+ <!-- Index -->
 .centralizar
 {
 	text-align: center;
@@ -71,4 +73,48 @@
   border-style:double;
   border-width:3px;
 
+}
+
+
+ <!-- Login -->
+
+ .center{
+  color: blue;
+}
+.botao{
+
+  text-align: center; 
+}
+
+.centralizarlogin{
+
+  margin: auto;
+  margin-top: 90px;
+
+}
+
+<!-- Desenvolvedores -->
+
+.cor{
+
+  background-color: black;
+  color: blue;
+  text-align: center; 
+}
+
+.imagem{
+
+  margin:auto;
+  text-align:center;  
+}
+
+.nome{
+
+  margin-left: 90px;
+  
+}
+
+.nome1{
+
+  margin-left: 75px;
 }
