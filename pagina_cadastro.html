@@ -20,53 +20,58 @@
 
 </head>
 <body class="fundo" />
-	  <h1 class="fundorosaletrabranca centralizar"> Bem vindo à página de cadastro </h1> 
-  <h2 class="fundorosaletrabranca centralizar"> Preencha o formulário abaixo para se cadastrar</h2><br />
+
+	
+	<div class= "container-fluid ">
+
+<div class= "row">
+<div class= "col cor">
+
+	  <h1 class="fundorosaletrabranca centralizar title"> Bem vindo à página de cadastro </h1> 
+  <h2 class="fundorosaletrabranca centralizar title" > Preencha o formulário abaixo para se cadastrar</h2><br />
 
 <form action="login.html" method="post">
 
 <!-- DADOS PESSOAIS-->
 <fieldset> <!-- ------------------------------------------------------------------------- -->
- <legend class="cor2">Dados Pessoais</legend>
+ <legend class="cor2 fonte">Dados Pessoais</legend>
  <table cellspacing="10">
   <tr> <!-- Fazendo uma tabela -->
-   <td class="cor">
+   <td class="cor fonte">
     <label for="nome">Nome: </label>
    </td>
    <td  align="left"  >
-    <input type="text" name="nome" required/>
+    <input type="text" name="nome" required class="fonte"/>
    </td>
-   <td class="cor">
+   <td class="cor fonte">
     <label for="sobrenome">Sobrenome: </label>
    </td>
    <td align="left">
-    <input type="text" name="sobrenome">
+    <input type="text" name="sobrenome" required class="fonte"/>
    </td>
   </tr> <!-- Fechando a tabela dos dados pessoais -->
   <tr>
-   <td class="cor">
+   <td class="cor fonte" class="fonte"/>
     <label>Nascimento: </label>
    </td>
    <td align="left">
-    <input type="text" name="dia" size="2" maxlength="2" value="dd"> 
-   <input type="text" name="mes" size="2" maxlength="2" value="mm"> 
-   <input type="text" name="ano" size="4" maxlength="4" value="aaaa">
+    <input type="date" name="data" class="fonte" required/> 
    </td>
   </tr>
   <tr>
-   <td class="cor">
+   <td class="cor fonte"/>
     <label for="rg">RG: </label>
    </td>
    <td align="left">
-    <input type="text" name="rg" size="13" maxlength="13"> 
+    <input type="text" name="rg" size="13" maxlength="13" class="fonte" required> 
    </td>
   </tr>
   <tr>
-   <td class="cor">
+   <td class="cor fonte">
     <label>CPF:</label>
    </td>
    <td align="left">
-    <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
+    <input type="text" name="cpf"  size="9" maxlength="9" class="fonte" required/> - <input type="text" name="cpf2" size="2" maxlength="2" class="fonte" required/>
    </td>
   </tr>
  </table>
@@ -75,37 +80,37 @@
 <br />
 <!-- ENDEREÇO -->
 <fieldset> <!-- ------------------------------------------------------------------------- -->
- <legend class="cor2">Dados de Endereço</legend>
+ <legend class="cor2 fonte">Dados de Endereço</legend>
  <table cellspacing="10">
 
   <tr>
-   <td class="cor">
+   <td class="cor fonte">
     <label for="rua">Rua:</label>
    </td>
    <td align="left">
-    <input type="text" name="rua">
+    <input type="text fonte" name="rua" class="fonte" required/>
    </td>
-   <td class="cor">
+   <td class="cor fonte">
     <label for="numero">Numero:</label>
    </td>
    <td align="left">
-    <input type="text" name="numero" size="4">
+    <input type="text" name="numero" size="4" class="fonte"/>
    </td>
   </tr>
   <tr>
-   <td class="cor">
+   <td class="cor fonte">
     <label for="bairro">Bairro: </label>
    </td>
    <td align="left">
-    <input type="text" name="bairro">
+    <input type="text" name="bairro" class="fonte" required/>
    </td>
   </tr>
   <tr>
-   <td class="cor">
+   <td class="cor fonte">
     <label for="estado">Estado:</label>
    </td>
    <td align="left">
-    <select name="estado"> 
+    <select name="estado" class="fonte" required> 
     <option value="ac">Acre</option> 
     <option value="al">Alagoas</option> 
     <option value="am">Amazonas</option> 
@@ -137,19 +142,19 @@
    </td>
   </tr>
   <tr>
-   <td class="cor">
+   <td class="cor fonte">
     <label for="cidade">Cidade: </label>
    </td>
    <td align="left">
-    <input type="text" name="cidade">
+    <input type="text" name="cidade" class="fonte" required/>
    </td>
   </tr>
   <tr>
-   <td class="cor">
+   <td class="cor fonte">
     <label for="cep">CEP: </label>
    </td>
    <td align="left">
-    <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">
+    <input type="text" name="cep" size="5" maxlength="5" class="fonte" required/> - <input type="text" name="cep2" size="3" maxlength="3" class="fonte" required/>
    </td>
   </tr>
  </table>
@@ -158,55 +163,57 @@
 
 <!-- DADOS DE LOGIN -->
 <fieldset> <!-- ------------------------------------------------------------------------- -->
- <legend class="cor2">Dados de login</legend>
+ <legend class="cor2 fonte">Dados de login</legend>
  <table cellspacing="10">
   <tr>
-   <td class="cor">
+   <td class="cor fonte">
     <label for="email">E-mail: </label>
    </td>
    <td align="left">
-    <input type="text" name="email">
+    <input type="text" name="email" class="fonte" required/>
    </td>
   </tr>
   <tr>
-   <td class="cor">
+   <td class="cor fonte">
     <label for="imagem">Imagem de perfil:</label>
    </td>
-   <td class="cor">
-    <input type="file" name="imagem" >
+   <td class="cor fonte">
+    <input type="file" name="imagem" class="fonte" required/>
 
    </td>
   </tr>
   <tr>
-   <td class="cor">
+   <td class="cor fonte">
     <label for="login">Login de usuário: </label>
    </td>
    <td align="left">
-    <input type="text" name="login">
+    <input type="text" name="login" class="fonte" required/>
    </td>
   </tr>
   <tr>
-   <td class="cor">
+   <td class="cor fonte">
     <label for="pass">Senha: </label>
    </td>
    <td align="left">
-    <input type="password" name="pass">
+    <input type="password" name="pass" class="fonte" required/>
    </td>
   </tr>
   <tr>
-   <td class="cor">
+   <td class="cor fonte">
     <label for="passconfirm">Confirme a senha: </label>
    </td>
-   <td align="left">
-    <input type="password" name="passconfirm">
-   </td>
-  </tr>
- </table>
-</fieldset> <!-- ------------------------------------------------------------------------- -->
-<br />
-<input type="submit" value="Enviar dados">
-<input type="reset" value="Limpar">
-</form>
+   	<td align="left">
+   	<input type="password" name="passconfirm" class="fonte" required/>
+  	</td>
+  	</tr>
+ 	</table>
+	</fieldset> <!-- ------------------------------------------------------------------------- -->
+	<br />
+	<input type="submit" value="Enviar dados" class="fonte"/>
+	<input type="reset" value="Limpar" class="fonte"/>
+	</form>
+	</div>
+	</div>
 	
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -17,6 +17,7 @@
 .fundo{
 
   background-image: url(trab2.jpg);
+ 
 }
 .fundorosaletrabranca
 {
@@ -28,4 +29,11 @@
 .centralizar
 {
 	text-align: center;
+}
+.fonte{
+	font-size: 25px;
+}
+.title{
+	font-size: 35px;
+	font-style: italic;
 }
